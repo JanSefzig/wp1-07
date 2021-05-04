@@ -34,6 +34,14 @@
         <label for="name">Jméno:</label>
         <input type="text" name="Jméno" id="name">
         <br>
+        <p>Co rádi děláte ?</p>
+        <label for="name">Aktivita</label>
+        <input type="text" name="Jméno" id="name">
+        <br>
+        <p>Kolik hodin denně spíte?</p>
+        <label for="name">hodiny:</label>
+        <input type="text" name="Jméno" id="name">
+        <br>
 <input type="submit" value="Odeslat">
 
 </body>
