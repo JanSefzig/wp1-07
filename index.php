@@ -30,14 +30,10 @@
         <input type="email" name="Email" id="email">
   <br>
   <br>
-  <label for="option">Jak se jmenuje prezident České republiky ?</label>
-  <br>
-<select id="option">
-  <option value="miloszeman">Miloš Zeman</option>
-  <option value="donaldtrump">Donald Trump</option>
-  <option value="vaclavhavel">Václav Havel</option>
-</select>
-<br>
+  <p>Jaké je jméno vašeho mazlíčka ?</p>
+        <label for="name">Jméno:</label>
+        <input type="text" name="Jméno" id="name">
+        <br>
 <input type="submit" value="Odeslat">
 
 </body>
