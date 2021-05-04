@@ -30,18 +30,21 @@
         <input type="email" name="Email" id="email">
   <br>
   <br>
-  <p>Jaké je jméno vašeho mazlíčka ?</p>
+  <label for="option"><p>Jaké je jméno vašeho mazlíčka ?</p>
         <label for="name">Jméno:</label>
         <input type="text" name="Jméno" id="name">
-        <br>
-        <p>Co rádi děláte ?</p>
-        <label for="name">Aktivita</label>
-        <input type="text" name="Jméno" id="name">
-        <br>
-        <p>Kolik hodin denně spíte?</p>
-        <label for="name">hodiny:</label>
-        <input type="text" name="Jméno" id="name">
-        <br>
+        <br>Vyberte  si otázku ?</label>
+  <br>
+<select id="option">
+  <option value="mazlicek">Jak se jmenuje vas maylicek? 
+  <option value="spanek">Kolik hodin denne spite ?
+  <option value="delani">Jakou aktivitu radi delate ? 
+  <input type="text" name="Jméno" id="name">
+
+       
+  
+</select>
+<br>
 <input type="submit" value="Odeslat">
 
 </body>
